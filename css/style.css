@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.headerr {
+    display: flex;
+}
+
+.headerr ul {
+    list-style-type: none;
+    display: flex;
+    font-size: 24px;
+}
+
+.headerr li {
+    margin: 24px;
+    color: #004d4d;
+    font-weight: 700;
+}
+
+
+nav {
+    display: flex;
+    z-index: 8;
+    justify-content: space-around;
+    border-bottom: solid #004d4d 1px;
+}
+
+#logo img {
+    display: inline;
+    width: 75px;
+    height: 75px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#container {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    z-index: 5;
+    justify-content: left;
+}
+
+.right {
+    background-color: whitesmoke;
+    width: 85%;
+
+}
+
+.left {
+    width: 15%;
+    min-height: 91vh;
+    background-color: rgb(217, 217, 217);
+    color: #004d4d;
+
+    font-size: 25px;
+    font-weight: 700;
+    justify-content: stretch;
+    /*display: flex;*/
+}
+
+.left ul {
+    list-style: none;
+}
+
+.left li:hover {
+    background-color: #f2f2f2;
+    transition: 0.3s;
+}
+
+.left li {
+    padding: 25px;
+    text-align: center;
+    align-items: center;
+    display: block;
+    width: auto;
+    border-bottom: solid #004d4d 1px;
+}
+
+#line {
+    top: 0%;
+    bottom: 0%;
+    width: 1px;
+    background-color: #777;
+}
+
+.announcements {
+    position: relative;
+    color: black;
+    font-weight: 900;
+    height: 100%;
+    border-radius: 5px;
+    width: 85%;
+
+}
+
+.announcements h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    margin: 30px;
+}
+
+.announcements p {
+    font-size: 25px;
+    margin: 30px;
+    padding: 10px;
+}
+
+.announcements li:nth-child(odd) {
+    background-color: rgba(194, 214, 214, 0.7);
+    border-radius: 5px;
+
+}
+
+.announcements li:nth-child(even) {
+    background-color: rgba(217, 217, 217, 0.7);
+    border-radius: 5px;
+
+}
+
+.announcements ul {
+    list-style-type: none;
+    margin: 20px;
+}
+
+button {
+    color: #004d4d;
+    font-size: 25px;
+    font-weight: 700;
+    font: inherit;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}

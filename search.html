@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <link href="css\search_page_style.css" rel="stylesheet">
+
+
+  <title> search for a student </title>
+  <style>
+
+  </style>
+</head>
+
+<body id="grad">
+  <div id="logo">
+    <div class="bars"></div>
+    <div class="bars"></div>
+    <div class="bars"></div>
+  </div>
+  <div id="left">
+    <ul class="menu">
+      <li>
+        <a href="index.html">
+          Home
+        </a>
+      </li>
+      <li>
+        <a href="Add_student.html">
+          Add Student
+        </a>
+      </li>
+      <li>
+        <a href="Update.html">
+          Update/Delete students
+        </a>
+      </li>
+      <li>
+        <a href="table.html">
+          View students
+        </a>
+      </li>
+      <li>
+        <a href="search.html">
+          Search for students
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div id="line">
+  </div>
+  <div class="right">
+    <div class="all">
+      <div class="search">
+        <form class="ex" onsubmit="CheckForm()">
+          <p class="first"> Enter the Student Name: </p>
+          </b>
+          <input type="text" id="mySearch" placeholder="search..">
+          <div> <input type="submit" name="Search" id="submit"> </div>
+        </form>
+      </div>
+      <div class="data">
+        <div id="table">
+          <table class="center">
+            <tr>
+              <th id="headerrr" colspan="3" style="background-color:#004d4d; color: white;"> Active Students With the
+                Same Name </th>
+            </tr>
+            <tr>
+              <td ALIGN=CENTER> Name </td>
+              <td ALIGN=CENTER> ID </td>
+              <td ALIGN=CENTER> <button type="button"><a href="studentDepartment.html">Assign a Department</a>
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td ALIGN=CENTER> Name 1</td>
+              <td ALIGN=CENTER> ID 1</td>
+              <td ALIGN=CENTER> <button type="button"> <a href="studentDepartment.html">Assign a Department</a>
+                </button>
+              </td>
+
+            </tr>
+            <tr>
+              <td ALIGN=CENTER>Name 2</td>
+              <td ALIGN=CENTER>ID 2</td>
+              <td ALIGN=CENTER> <button type="button"> <a href="studentDepartment.html">Assign a
+                    Department</a></button>
+              </td>
+
+
+            </tr>
+            <tr>
+              <td ALIGN=CENTER>Name 3</td>
+              <td ALIGN=CENTER>ID 3</td>
+              <td ALIGN=CENTER> <button type="button"> <a href="studentDepartment.html">Assign a Department</a>
+                </button>
+              </td>
+
+            </tr>
+            <tr>
+              <td ALIGN=CENTER>Name 4</td>
+              <td ALIGN=CENTER>ID 4</td>
+              <td ALIGN=CENTER> <button type="button"> <a href="studentDepartment.html">Assign a Department</a>
+                </button>
+              </td>
+
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script src="js/search_script.js"></script>
+
+</body>
+
+
+
+</html>

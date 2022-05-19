@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap');
+
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+h1 {
+	align-items: center;
+	justify-content: center;
+	font-family: 'Open Sans', sans-serif;
+	display: flex;
+}
+
+body {
+	background-color: #004d4d;
+	font-family: 'Open Sans', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	margin: 0;
+}
+
+.container {
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+	width: 400px;
+	max-width: 100%;
+}
+
+
+.form {
+	padding: 30px 40px;
+}
+
+.form-control {
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+.form-control label {
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.form-control input {
+	border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-family: inherit;
+	font-size: 14px;
+	padding: 10px;
+	width: 100%;
+}
+
+.form-control input:focus {
+	outline: 0;
+	border-color: #777;
+}
+
+.form-control.success input {
+	border-color: #2ecc71;
+}
+
+.form-control.error input {
+	border-color: red;
+}
+
+.form-control i {
+	visibility: hidden;
+	position: absolute;
+	top: 40px;
+	right: 10px;
+}
+
+.form-control small {
+	color: #e74c3c;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	visibility: hidden;
+}
+
+.form-control.error small {
+	visibility: visible;
+}
+
+.form button {
+	background-color: #004d4d;
+	border: 2px solid #004d4d;
+	border-radius: 4px;
+	color: #fff;
+	display: block;
+	font-family: inherit;
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 20px;
+	width: 100%;
+}
+
+.form select {
+	border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-family: inherit;
+	font-size: 14px;
+	padding: 10px;
+	width: 100%;
+}
+
+.message {
+	width: 100%;
+	position: relative;
+	margin-bottom: 60px;
+	display: flex;
+	justify-content: center;
+}
+
+.message .success {
+	font-size: 20px;
+	color: green;
+	position: absolute;
+	animation: buttons .3s linear;
+	display: none;
+}
+
+.message .danger {
+	font-size: 20px;
+	color: red;
+	position: absolute;
+	transition: .3s;
+	animation: buttons .3s linear;
+	display: none;
+}
+
+@keyframes buttons {
+	0% {
+		transform: scale(0.1);
+	}
+
+	50% {
+		transform: scale(0.5);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+#grad {
+	background-image: linear-gradient(#004d4d, #c2f0f0);
+}
+
+#left {
+	position: fixed;
+	top: 70px;
+	left: 20px;
+	background-color: rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+	font-size: 20px;
+	font-weight: 500;
+	width: fit-content;
+	float: left;
+	color: whitesmoke;
+	display: none;
+}
+
+#left ul {
+	list-style: none;
+}
+
+#left li:hover {
+	border: 3px solid white;
+	transition: 0.3s;
+}
+
+#left li {
+	padding: 25px;
+	text-align: center;
+	align-items: center;
+	display: block;
+	width: auto;
+	border-bottom: solid #004d4d 1px;
+}
+
+#line {
+	top: 0%;
+	bottom: 0%;
+	width: 1px;
+	background-color: #777;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.bars {
+	width: 45px;
+	height: 10px;
+	background-color: black;
+	margin: 6px 0;
+	border-radius: 5px;
+
+}
+
+#logo {
+	top: 20px;
+	left: 20px;
+	position: fixed;
+	cursor: pointer;
+
+}
+
+/* navigation menu*/

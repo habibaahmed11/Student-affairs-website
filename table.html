@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    Table web page
+  </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <link href="css\table_page_style.css" rel="stylesheet">
+
+</head>
+<style>
+
+</style>
+
+<body id="grad">
+  <div id="logo">
+    <div class="bars"></div>
+    <div class="bars"></div>
+    <div class="bars"></div>
+  </div>
+  <div id="left">
+    <ul class="menu">
+      <li>
+        <a href="index.html">
+          Home
+        </a>
+      </li>
+      <li>
+        <a href="Add_student.html">
+          Add Student
+        </a>
+      </li>
+      <li>
+        <a href="Update.html">
+          Update/Delete students
+        </a>
+      </li>
+      <li>
+        <a href="table.html">
+          View students
+        </a>
+      </li>
+      <li>
+        <a href="search.html">
+          Search for students
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div id="line">
+  </div>
+  <div class="container">
+    <!-- <div class="right"> -->
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>ID</th>
+        <th>DateOfBirth</th>
+        <th>GPA</th>
+        <th>Gender</th>
+        <th>Level</th>
+        <th>Department</th>
+        <th>Phone Number</th>
+        <th>Email</th>
+        <th>Status</th>
+      </tr>
+      <tr>
+        <td>Abdelrahaman</td>
+        <td>2001124</td>
+        <td>4/12</td>
+        <td>4.9</td>
+        <td>Male</td>
+        <td>1st</td>
+        <td>WD</td>
+        <td>0112685</td>
+        <td>abdkafafy412@gmail.com</td>
+        <td>Active</td>
+
+      </tr>
+      <tr>
+        <td>muhamed</td>
+        <td>211200</td>
+        <td>3/11/2001</td>
+        <td>4.5</td>
+        <td>Male</td>
+        <td>3rd</td>
+        <td>SW</td>
+        <td>01100501</td>
+        <td>unkown01232@gmail.com</td>
+        <td>InActive</td>
+      </tr>
+
+
+    </table>
+
+    <hr>
+    <hr>
+    <h2 style="text-align: center; margin-Top: 30px;">Changing a student's status </h2>
+    <div class="center">
+      <form id="personal-info">
+        Student ID: <input type="text">
+        <button>CHANGE</button>
+      </form>
+    </div>
+    <!-- </div> -->
+  </div>
+  <script defer src="js/table_script.js"></script>
+
+</body>
+
+</html>
